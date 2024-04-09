@@ -1,0 +1,23 @@
+{
+  "name": "palpet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RequerimientosPrimavera2024B/palpet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RequerimientosPrimavera2024B/palpet/issues"
+  },
+  "homepage": "https://github.com/RequerimientosPrimavera2024B/palpet#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.4.0"
+  }
+}
