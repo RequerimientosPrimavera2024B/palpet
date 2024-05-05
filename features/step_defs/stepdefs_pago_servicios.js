@@ -1,104 +1,120 @@
 const assert = require('assert');
 const { Given, When, Then } = require('@cucumber/cucumber');
 
-         Given('el usuario trata de verificar su cuenta', function () {
+ 
+         Given('el usuario esta logeado', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+        
+         When('el usuario intenta accede a el apartado pagar un servicio', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+        
+         Then('se consultan los servicios pendientes por pagar', function () {
            // Write code here that turns the phrase above into concrete actions
            return 'pending';
          });
        
-         When('En el que el usuario no cunenta con los requisitos', function () {
+        
+         Given('el usuario no esta logeado', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+        
+         When('el usuario intenta acceder a el apartado pagar un servicio', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+        
+         Then('se pide al usuario que este logeado', function () {
            // Write code here that turns the phrase above into concrete actions
            return 'pending';
          });
        
-         Then('la verificación es denegada', function () {
+  
+         When('el que el usuario no ha pagado un servicio solicitado', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+        
+         Then('se le pide al usuario que pague el servicio o lo cancele', function () {
            // Write code here that turns the phrase above into concrete actions
            return 'pending';
          });
        
+  
+         When('el método de pago no ha sido dado de alta', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+        
+         Then('se le pide al usuario que de dealta un método', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+         
+        
+         When('el método de pago es correcto', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+        
+         Then('se efectua el cobro', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+         
+        
+         When('ocurrio un error', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         }); 
 
-         Given('el usuario mando su solicitud', function () {
+         Then('se le informa al usuario y se regresa al menu de servicios pendientes', function () {
            // Write code here that turns the phrase above into concrete actions
            return 'pending';
          });
        
-         When('La solicitud sigue en espera', function () {
+  
+        
+         When('los datos dados son erroneos', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+        
+         Then('se le informa al usuario y se le niega continuar \\(hasta que sean correctos)', function () {
            // Write code here that turns the phrase above into concrete actions
            return 'pending';
          });
        
-         Then('la verificación aun no es otorgada', function () {
+  
+        
+         When('los datos dados son correctos', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+        
+         Then('continua el pago', function () {
            // Write code here that turns the phrase above into concrete actions
            return 'pending';
          });
        
-
-         Given('el usuario empieza su solicitud', function () {
+ 
+         Given('el usuario pudo pagar', function () {
            // Write code here that turns the phrase above into concrete actions
            return 'pending';
          });
-       
-         When('La solicitud no es finalizada', function () {
+        
+         When('el usuario finalizo el pago', function () {
            // Write code here that turns the phrase above into concrete actions
            return 'pending';
          });
-       
-         Then('la verificación no es otorgada y se borra el forms', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-       
-         When('la foto no es legible', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-
-       
-
-       
-         When('la identificación no es vigente', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-
-       
-       
-         When('todos los datos cumplen los requisitos', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-       
-         Then('la verificación es acceptada', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-       
-
-         Given('el usuario verifica su cuenta', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-       
-
-       
-         Then('se envia una notificasion avisando de la confirmacion al usuario', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-       
-
-         Given('el usuario intento verifica su cuenta y fue denegada', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-       
-         When('el usuario reenvia el formulario corregido', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-       
-         Then('se verifica que su nueva informacion sea correcta \\(se maneja como si fuera la primera vez que trata de verificar)', function () {
-           // Write code here that turns the phrase above into concrete actions
-           return 'pending';
-         });
-       
+    
+         
+          When('el usuario esta intentando pagar', function () {
+            // Write code here that turns the phrase above into concrete actions
+            return 'pending';
+          });
+ 
